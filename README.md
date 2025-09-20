@@ -1,57 +1,20 @@
-اپلیکیشن ساده آب‌وهوا
+# Weather App
 
-این پروژه یه اپلیکیشن ساده بک‌اند محوره که با جاوا و فریم‌ورک Spring Boot نوشته شده و اطلاعات آب‌وهوای شهرهای مختلف رو از طریق سرچ تو مرورگر نشون می‌ده. از API عمومی OpenWeatherMap برای گرفتن داده‌های آب‌وهوا (مثل دما، رطوبت و سرعت باد) استفاده می‌کنه. این پروژه فرانت‌اند نداره و صرفا یه API ساده‌ست که برای یادگیری کار با جاوا، Spring Boot و APIهای وب مناسبه.
+This project is a simple backend-focused application built with Java and the Spring Boot framework. It displays weather information for different cities through browser searches. It uses the public OpenWeatherMap API to fetch weather data (such as temperature, humidity, and wind speed). The project does not include a frontend; it is purely a simple API, making it suitable for learning Java, Spring Boot, and web APIs.
 
-ویژگی‌ها
+## Features
+- Displays current temperature, weather conditions, and humidity via browser search
+- Uses a free weather API
 
+## Technologies
+- **Java**: For implementing backend logic
+- **Spring Boot**: For building and managing the API
+- **OpenWeatherMap API**: For weather data
 
+## Setup
+1. Clone the repository: `git clone <repository-link>`
+2. Get a free API Key from OpenWeatherMap.
+3. Add the API Key to the project configuration file (e.g., `application.properties`).
+4. View the data in your browser by entering a URL like: `http://localhost:8080/weather?city=Tehran`
 
-
-
-نمایش دمای فعلی، وضعیت جوی و رطوبت از طریق سرچ تو مرورگر
-
-
-
-استفاده از API رایگان آب‌وهوا
-
-تکنولوژی‌ها
-
-
-
-
-
-Java: برای پیاده‌سازی منطق بک‌اند
-
-
-
-Spring Boot: برای ساخت و مدیریت API
-
-
-
-OpenWeatherMap API: برای داده‌های آب‌وهوا
-
-راه‌اندازی
-
-
-
-
-
-ریپازیتوری رو کلون کنید: git clone <لینک-ریپازیتوری>
-
-
-
-یه API Key رایگان از OpenWeatherMap بگیرید.
-
-
-
-API Key رو تو فایل تنظیمات پروژه (مثل application.properties) وارد کنید.
-
-
-
-پروژه رو با Maven یا IDE دلخواهتون (مثل IntelliJ) اجرا کنید: mvn spring-boot:run
-
-
-
-تو مرورگر با وارد کردن URL (مثل http://localhost:8080/weather?city=Tehran) داده‌ها رو ببینید.
-
-اگه نظری، پیشنهادی یا نقدی درباره پروژه دارید، خوشحال میشم تو بخش Issues گیت‌هاب بگید تا بتونیم راجبش گپ بزنیم!
+If you have any feedback, suggestions, or critiques about the project, I’d love to hear them! Please share your thoughts in the GitHub Issues section so we can discuss them.
